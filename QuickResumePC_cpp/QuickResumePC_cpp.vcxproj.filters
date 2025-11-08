@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Save_QR.cpp" />
+    <ClCompile Include="Load_QR.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ramstuff.cpp" />
+    <ClCompile Include="ui.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\imgui_widgets.cpp">
+      <Filter>ImGui/Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\imgui\imgui.cpp">
+      <Filter>ImGui/Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\imgui\imgui_demo.cpp">
+      <Filter>ImGui/Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\imgui\imgui_draw.cpp">
+      <Filter>ImGui/Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\imgui\backends\imgui_impl_opengl2.cpp">
+      <Filter>ImGui/Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\imgui\backends\imgui_impl_sdl2.cpp">
+      <Filter>ImGui/Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\imgui\imgui_tables.cpp">
+      <Filter>ImGui/Glad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enhanced_snapshot.h" />
+    <ClInclude Include="region_diagnostics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui/Glad">
+      <UniqueIdentifier>{2e76eb09-1921-4ac6-9a8d-37587d05402c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
